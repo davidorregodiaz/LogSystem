@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using SysLog.Domine.Model;
 
-namespace SysLog.Data.Data;
+namespace SysLog.Data.Data;     //public class DataContext : DbContext
 
 public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : DbContext(options)
 {
