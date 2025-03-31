@@ -1,13 +1,12 @@
-using System.Diagnostics;
+
 using Microsoft.AspNetCore.Mvc;
-using LogUdp.Models;
-using SysLog.Domine.Interface.Service;
 using SysLog.Domine.Model;
+using SysLog.Service.Services;
 
 namespace LogUdp.Controllers;
 
 [Route("api/v1/logs")]
-public class LogsController(ILogger<LogsController> _logger,ILogService logService) : ControllerBase
+public class LogsController(ILogger<LogsController> _logger, ILogService logService) : ControllerBase
 {
 
     [HttpGet]

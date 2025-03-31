@@ -1,6 +1,6 @@
-using SysLog.Data.Data;
-using SysLog.Domine.Interface;
 using SysLog.Domine.Model;
+using SysLog.Domine.Repositories;
+using SysLog.Repository.Data;
 
 namespace SysLog.Repository.Repositories;
 

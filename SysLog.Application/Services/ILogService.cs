@@ -1,6 +1,6 @@
 using SysLog.Domine.Model;
 
-namespace SysLog.Domine.Interface.Service;
+namespace SysLog.Service.Services;
 
 public interface ILogService : IService<Log>
 {

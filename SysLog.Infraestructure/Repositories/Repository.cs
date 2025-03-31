@@ -1,8 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using SysLog.Data.Data;
-using SysLog.Domine.Interface;
-using SysLog.Domine.Interface.Repository;
-using SysLog.Domine.Model;
+using SysLog.Domine.Repositories;
+using SysLog.Repository.Data;
 
 namespace SysLog.Repository.Repositories;
 
@@ -19,7 +17,7 @@ public class Repository<T> : IRepository<T> where T : class
 
     public async Task<IEnumerable<T>> GetAllAsync()
     {
-        return await _dbSet.OrderByDescending(e => EF.Property<DateTime>(e, "DateTime")).ToListAsync();
+        return await Queryable.OrderByDescending<T, DateTime>(_dbSet, e => EF.Property<DateTime>(e, "DateTime")).ToListAsync();
     }
 
     public async Task<T?> GetByIdAsync(int id)
@@ -27,18 +25,22 @@ public class Repository<T> : IRepository<T> where T : class
         return await _dbSet.FindAsync(id);
     }
 
+    public async Task AddAsync(T entity)
+    {
+        await _dbSet.AddAsync(entity);
+    }
+
     public void Update(T obj)
     {
         _dbSet.Update(obj);
-        _dbContext.SaveChanges();
     }
     public void Remove(T obj)
     {
         _dbContext.Remove(obj);
     }
 
-    public void Save()
+    public async Task SaveAsync()
     {
-        _dbContext.SaveChanges();
+        await _dbContext.SaveChangesAsync();
     }
 }

@@ -1,8 +1,7 @@
-using SysLog.Domine.Interface;
-using SysLog.Domine.Interface.Repository;
-using SysLog.Domine.Interface.Service;
+using SysLog.Domine.Repositories;
+using SysLog.Service.Services;
 
-namespace SysLog.Service;
+namespace SysLog.Repository.Services;
 
 public class Service<T>(IRepository<T> repository) :IService<T>   where T : class
 {
@@ -16,18 +15,23 @@ public class Service<T>(IRepository<T> repository) :IService<T>   where T : clas
        return await repository.GetByIdAsync(id);
     }
 
-    public void Update(T obj)
+    public async Task AddAsync(T entity)
     {
-        throw new NotImplementedException();
+       await repository.AddAsync(entity);
     }
 
-    public void Save()
+    public void Update(T obj)
     {
-        throw new NotImplementedException();
+        repository.Update(obj);
+    }
+
+    public async Task SaveAsync()
+    {
+       await repository.SaveAsync();
     }
 
     public void Remove(T obj)
     {
-        throw new NotImplementedException();
+        repository.Remove(obj);
     }
 }

@@ -1,8 +1,8 @@
-using SysLog.Domine.Interface;
-using SysLog.Domine.Interface.Service;
 using SysLog.Domine.Model;
+using SysLog.Domine.Repositories;
+using SysLog.Service.Services;
 
-namespace SysLog.Service.LogService;
+namespace SysLog.Repository.Services;
 
 public class LogService(ILogRepository repository) : Service<Log>(repository),ILogService
 {
