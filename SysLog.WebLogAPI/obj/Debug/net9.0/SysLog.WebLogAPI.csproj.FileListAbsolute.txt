@@ -169,3 +169,6 @@ C:\Users\david\RiderProjects\SysLog\SysLog.WebLogAPI\obj\Debug\net9.0\refint\Sys
 C:\Users\david\RiderProjects\SysLog\SysLog.WebLogAPI\obj\Debug\net9.0\SysLog.WebLogAPI.pdb
 C:\Users\david\RiderProjects\SysLog\SysLog.WebLogAPI\obj\Debug\net9.0\SysLog.WebLogAPI.genruntimeconfig.cache
 C:\Users\david\RiderProjects\SysLog\SysLog.WebLogAPI\obj\Debug\net9.0\ref\SysLog.WebLogAPI.dll
+C:\Users\david\RiderProjects\SysLog\SysLog.WebLogAPI\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\david\RiderProjects\SysLog\SysLog.WebLogAPI\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\david\RiderProjects\SysLog\SysLog.WebLogAPI\bin\Debug\net9.0\Microsoft.Extensions.Hosting.Abstractions.dll
