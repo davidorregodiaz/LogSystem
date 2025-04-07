@@ -19,13 +19,15 @@ public class CatchLogsService : BackgroundService
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
-        var scope = _serviceProvider.CreateScope();
-        var logService = scope.ServiceProvider.GetRequiredService<ILogService>();
-        var protocol = scope.ServiceProvider.GetRequiredService<IUdpProtocol>();
-        var parser = scope.ServiceProvider.GetRequiredService<IJsonParser>();
+        
         
         while (true)
         {
+            var scope = _serviceProvider.CreateScope();
+            var logService = scope.ServiceProvider.GetRequiredService<ILogService>();
+            var protocol = scope.ServiceProvider.GetRequiredService<IUdpProtocol>();
+            var parser = scope.ServiceProvider.GetRequiredService<IJsonParser>();
+            
             try
             {
                 protocol.Start();

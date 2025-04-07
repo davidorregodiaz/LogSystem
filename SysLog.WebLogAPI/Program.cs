@@ -1,8 +1,11 @@
 
 using Microsoft.EntityFrameworkCore;
 using SysLog.Domine.Interfaces;
+using SysLog.Domine.Repositories;
 using SysLog.Repository.BackgroundServices;
 using SysLog.Repository.Data;
+using SysLog.Repository.Protocols;
+using SysLog.Repository.Repositories;
 using SysLog.Repository.Services;
 using SysLog.Repository.Utilities;
 using SysLog.Service.Services;
@@ -14,9 +17,10 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(
     builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddSingleton<IUdpProtocol, UdpProtocol>();
+builder.Services.AddScoped<ILogRepository, LogRepository>();
 builder.Services.AddScoped<ILogService, LogService>();
 builder.Services.AddScoped<IJsonParser, JsonParser>();
-builder.Services.AddScoped<ILogService, LogService>();
 builder.Services.AddHostedService<CatchLogsService>();
 
 var app = builder.Build();
