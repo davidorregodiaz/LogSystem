@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nHv9QgpV/Yk=",
+  "dgSpecHash": "Axgsd8Vq6IY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\david\\RiderProjects\\SysLog\\SysLog.WebLogAPI\\SysLog.WebLogAPI.csproj",
+  "projectFilePath": "C:\\Users\\david\\Projects\\SysLog\\SysLog.WebLogAPI\\SysLog.WebLogAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\david\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\david\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -54,6 +54,9 @@
     "C:\\Users\\david\\.nuget\\packages\\mono.texttemplating\\3.0.0\\mono.texttemplating.3.0.0.nupkg.sha512",
     "C:\\Users\\david\\.nuget\\packages\\npgsql\\9.0.3\\npgsql.9.0.3.nupkg.sha512",
     "C:\\Users\\david\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\9.0.4\\npgsql.entityframeworkcore.postgresql.9.0.4.nupkg.sha512",
+    "C:\\Users\\david\\.nuget\\packages\\serilog\\4.2.0\\serilog.4.2.0.nupkg.sha512",
+    "C:\\Users\\david\\.nuget\\packages\\serilog.extensions.logging\\9.0.1\\serilog.extensions.logging.9.0.1.nupkg.sha512",
+    "C:\\Users\\david\\.nuget\\packages\\serilog.sinks.file\\6.0.0\\serilog.sinks.file.6.0.0.nupkg.sha512",
     "C:\\Users\\david\\.nuget\\packages\\system.clientmodel\\1.0.0\\system.clientmodel.1.0.0.nupkg.sha512",
     "C:\\Users\\david\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
     "C:\\Users\\david\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",

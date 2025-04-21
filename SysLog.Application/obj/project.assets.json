@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\david\\RiderProjects\\SysLog\\SysLog.Application\\SysLog.Application.csproj",
+      "projectUniqueName": "C:\\Users\\david\\Projects\\SysLog\\SysLog.Application\\SysLog.Application.csproj",
       "projectName": "SysLog.Application",
-      "projectPath": "C:\\Users\\david\\RiderProjects\\SysLog\\SysLog.Application\\SysLog.Application.csproj",
+      "projectPath": "C:\\Users\\david\\Projects\\SysLog\\SysLog.Application\\SysLog.Application.csproj",
       "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\david\\RiderProjects\\SysLog\\SysLog.Application\\obj\\",
+      "outputPath": "C:\\Users\\david\\Projects\\SysLog\\SysLog.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -51,8 +51,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\david\\RiderProjects\\SysLog\\SysLog.Domain\\SysLog.Domain.csproj": {
-              "projectPath": "C:\\Users\\david\\RiderProjects\\SysLog\\SysLog.Domain\\SysLog.Domain.csproj"
+            "C:\\Users\\david\\Projects\\SysLog\\SysLog.Domain\\SysLog.Domain.csproj": {
+              "projectPath": "C:\\Users\\david\\Projects\\SysLog\\SysLog.Domain\\SysLog.Domain.csproj"
             }
           }
         }

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\david\\RiderProjects\\SysLog\\SysLog.Domain\\SysLog.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\david\\Projects\\SysLog\\SysLog.Domain\\SysLog.Domain.csproj",
       "projectName": "SysLog.Domain",
-      "projectPath": "C:\\Users\\david\\RiderProjects\\SysLog\\SysLog.Domain\\SysLog.Domain.csproj",
+      "projectPath": "C:\\Users\\david\\Projects\\SysLog\\SysLog.Domain\\SysLog.Domain.csproj",
       "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\david\\RiderProjects\\SysLog\\SysLog.Domain\\obj\\",
+      "outputPath": "C:\\Users\\david\\Projects\\SysLog\\SysLog.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config"

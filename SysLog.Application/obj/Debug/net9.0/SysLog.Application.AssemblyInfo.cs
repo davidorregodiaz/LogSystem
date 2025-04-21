@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SysLog.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efba92f82b3c632652dc9bcfe4045adfc31050cd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5f0991d4d284c9548f5d56c678fe4c8760ef75a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SysLog.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SysLog.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
