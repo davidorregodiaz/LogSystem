@@ -126,7 +126,7 @@ public class JsonParser : IJsonParser
             Interface = "N/A",
             Protocol = "N/A",
             IpOut = "N/A",
-            IpDestiny = logMessage,
+            IpDestiny = "N/A",
             Action = "N/A",
             DateTime = DateTime.UtcNow
         };
