@@ -14,5 +14,15 @@ public class Log
     public string IpDestiny { get; set; }
     public string? Signature { get; set; }
     public DateTime DateTime { get; set; }
-    
+
+    public override string ToString()
+    {
+        return $@"Type : {Type},
+                Action : {Action}, 
+                IpOut : {IpOut}, 
+                IpDestiny : {IpDestiny}, 
+                Signature : {Signature}, 
+                DateTime : {DateTime}, 
+                Protocol : {Protocol}";
+    }
 }
