@@ -42,7 +42,7 @@ public class CatchLogsService : BackgroundService
                 await logService.AddAsync(log);
                 await logService.SaveAsync();
                 
-                _logger.LogInformation($"Catch Log : {log}");
+                Console.WriteLine(logMessage);
             }
             catch (JsonException jsonEx)
             {
